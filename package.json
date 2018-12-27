@@ -1,0 +1,29 @@
+{
+  "name": "docker-dock",
+  "version": "1.0.0",
+  "description": "docker-doc.cn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docker-doc.cn"
+  ],
+  "author": "riichg5",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "cheerio": "^1.0.0-rc.2",
+    "http-proxy": "^1.17.0",
+    "koa": "^2.6.2",
+    "koa-better-http-proxy": "^0.2.4",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "lodash": "^4.17.11",
+    "mkdirp": "^0.5.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "request-promise-native": "^1.0.5",
+    "uuid": "^3.3.2"
+  }
+}
